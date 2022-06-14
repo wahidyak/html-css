@@ -1,0 +1,278 @@
+<html>
+
+<head>
+  <title>LESSON 13</title>
+  <style>
+    .flexbox {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.column1 {
+  background-color: lightpink;
+  width: 100px;
+}
+
+.row2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.item1 {
+  color: black;
+}
+
+.row2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.column2 {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.item2,.item3{
+  background-color: black;
+  color: white;
+}
+
+div{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flexboxx{
+  padding: 10px 15px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.10);
+  width: 400px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+
+.stdiv{
+  color: rgb(120, 120, 120);
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+
+
+
+.nddiv{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+
+.time-user{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3px;
+}
+.vert-div1{
+  margin-right: 10px;
+}
+.vert-div2{
+  flex: 1;
+}
+
+.prof-pic{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.chewy{
+  font-weight: bold;
+  font-size: 19px;
+  
+}
+
+.time{
+  font-size: 14px;
+  color: rgb(159, 149, 149);
+}
+
+
+.subject{
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.message{
+  color: rgb(120, 120, 120);
+}
+
+
+
+
+
+div {
+  font-family: Arial;
+}
+
+.container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 400px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.inbox-label {
+  font-size: 14px;
+  color: rgb(120, 120, 120);
+  margin-bottom: 20px;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sender-picture-container {
+  margin-right: 10px;
+}
+
+.sender-picture {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.email-content {
+  flex: 1;
+}
+
+.email-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.sender-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.send-time {
+  font-size: 14px;
+  color: rgb(120, 120, 120);
+}
+
+.subject {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.message {
+  color: rgb(120, 120, 120);
+}
+
+  </style>
+</head>
+
+<body>
+  <div class="flexbox">
+    <div class="column1"></div>
+    <div class="column2">
+      <div class="item1">row1</div>
+      <div class="row2">
+        <div class="item2">row2</div>
+        <div class="item3">row2</div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>  
+
+  <div class="flexboxx">
+    <div class="stdiv">
+      ALL INBOXES
+    </div>
+    <div class="nddiv">
+      <div class="vert-div1"><img class="prof-pic" src="channel-pic/profpic.jpg" alt=""></div>
+      <div class="vert-div2">
+        <div class="time-user">
+            <div class="chewy">Chewy Promotions</div>
+            <div class="time">4:58 PM</div>
+        </div>
+        <div class="subject">Biggest sales of the year</div>
+        <div class="message">Hey there! We're writing to tell you about out.....</div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <div class="container">
+    <div class="inbox-label">ALL INBOXES</div>
+    <div class="email">
+      <div class="sender-picture-container">
+        <img class="sender-picture" src="channel-pic/profpic.jpg">
+      </div>
+      <div class="email-content">
+        <div class="email-header">
+          <div class="sender-name">Chewy Promotions</div>
+          <div class="send-time">4:58 PM</div>
+        </div>
+        <div class="subject">
+          Biggest sales of the year!
+        </div>
+        <div class="message">
+          Hey there! We're writing to tell you about our...
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <div>
+    <div>
+        <img src="channel-pic/channel-2.jpeg" alt="">
+    </div>
+    <div>
+      <div>supersimple.dev @SuperSimpleDev</div>
+      <div>What is backend web development? A complete overview. New video is up!</div>
+      <div>
+        <div></div>
+        <div>
+          <div>youtube.com</div>
+          <div>Backend web development - a complete overview (2021)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

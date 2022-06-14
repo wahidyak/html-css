@@ -1,0 +1,110 @@
+#sub{
+  background-color: #c00;
+  color: white;
+  margin: 4px;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: opacity 0.5s;
+}
+
+#sub:hover{
+opacity: 0.8;
+}   
+
+#sub:active{
+opacity: 0.3;
+}
+
+#join{
+  background-color: white;
+  border-color: rgb(29, 155, 240);
+  border-style: solid;
+  border-width: 1px;
+  color:rgb(29, 155, 240);
+  margin: 4px;
+  padding: 9px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+#join:hover{
+background-color: rgb(29, 155, 240);
+color: white;
+}
+
+#join:active{
+opacity: 0.7;
+}
+
+.tweet{
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  height: 36px ;
+  width: 74px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 4px;
+  transition: box-shadow 0.5s;
+  vertical-align: middle;
+  
+}
+
+.tweet:hover{
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.joe{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: rgb(91, 87, 87);
+  margin-bottom: 8px;
+}
+
+input{
+  font-size: 16px;
+  width: 355px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  padding: 7px 9px;
+  border-radius: 4px;
+}
+
+.link{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: rgb(91, 87, 87);
+}
+
+.agree{
+  text-align: center;
+  font-size: 15px;
+  width: 370px;
+  color: white;
+  padding: 13px 5px;
+  border-radius: 24px;
+  background-color: #0a66c2;
+  border: none;
+}
+
+img{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.text-box{
+  font-size: 18px;
+  border: none;
+  width: 300px;
+  vertical-align: middle;
+}

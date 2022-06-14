@@ -1,0 +1,254 @@
+<style>
+  #uber{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 45px;
+    width: 120px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.5s;
+    
+  }
+
+  #uber:hover{
+    opacity: 0.8;
+  }
+
+  #amazon{
+    background-color: rgb(239, 201, 14);
+    color: black;
+    border: none;
+    height: 45px;
+    width: 200px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+  }
+
+  #amazon:hover{
+    background-color: rgb(255, 191, 0);
+  }
+
+  #Github{
+    background-color: rgb(22, 147, 22);
+    color: white;
+    border: none;
+    height: 43px;
+    width: 100px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bolder;
+    transition: box-shadow 0.6s;
+  }
+
+  #Github:hover{
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  #bootstrap{
+    background-color: rgb(117, 71, 156);
+    color: white;
+    border: none;
+    height: 42px;
+    width: 120px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'helvetica Neue', Arial, Helvetica, sans-serif;
+    margin-right: 6px;
+    transition: background-color 0.4s;
+  }
+
+  #bootstrap:hover{
+    background-color: rgb(117, 16, 213);
+  }
+
+  #boot{
+    background-color: white;
+    color: grey;
+    border-color: grey;
+    border-style: solid;
+    height: 42px;
+    width: 120px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    border-width: 1px;
+    font-family: 'helvetica Neue', Arial, Helvetica, sans-serif;
+    transition: background-color 0.4s, color 0.4s;
+  }
+
+  #boot:hover{
+    background-color: grey;
+    color: white;
+  }
+
+  #amaz{
+    background-color: rgb(239, 201, 14);
+    color: black;
+    border: none;
+    height: 33px;
+    width: 115px;
+    border-radius: 120px;
+    cursor: pointer;
+    margin-right: 6px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: background-color 0.5s, opacity 0.3s;
+  }
+
+  #amaz:hover{
+    background-color: rgb(255, 191, 0);
+  }
+
+  #amaz:active{
+    opacity: 0.6;
+  }
+
+  #buy{
+    background-color: orange;
+    color: black;
+    border: none;
+    height: 33px;
+    width: 120px;
+    border-radius: 120px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: background-color 0.5s, opacity 0.3s;
+  }
+
+  #buy:active{
+    opacity: 0.6;
+  }
+
+  #buy:hover{
+    background-color: rgb(255, 136, 0);
+  }
+
+  .back{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  .num{
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+  #stretch{
+    background-color: green;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-bottom: 10px;
+    transition: padding 1s, font-size 1s;
+  }
+
+  #stretch:hover{
+    padding: 16px 27px;
+    font-size: 16px;
+  }
+
+  #shad{
+    background-color: green;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-bottom: 10px;
+    margin: 10px;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.15);
+  }
+
+  #shad:active{
+    box-shadow: none;
+    margin: 14px;
+  }
+
+  .one{
+    background-color: green;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 12px;
+    margin-left: 12px;
+    padding-top: 7px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 7px;
+    transition: margin-left 0.7s, margin-right 0.7s, padding-left 0.7s, padding-right 0.7s;
+  }
+
+  .one:hover{
+    padding-right: 22px;
+    padding-left: 22px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+</style>
+
+<button id="uber">Request Now</button>
+
+<br>
+<br>
+
+<button class="amazon">Add to Cart</button>
+
+<br><br>
+
+<button id="Github">Sign up</button>
+
+<br>
+<br>
+
+<button id="bootstrap">Get Started</button>
+<button id="boot">Download</button>
+
+<br>
+<br>
+<br>
+
+<a href="https://www.amazon.com/" target="blank">Back to Amazon</a>
+<p>Nike Black Running Shoes</p>
+<p>$39 - in stock.</p>
+<p>Free delivery tomorrow</p>
+<button id="amaz">Add to Cart</button>
+<button id="buy">Buy Now</button>
+
+<br>
+<br>
+
+<button class="back">Back</button>
+<a href="" class="num">1</a>
+<a href="" class="num">2</a>
+<a href="" class="num">3</a>
+<a href="" class="num">4</a>
+<a href="" class="num">5</a>
+<button class="back">Next</button>
+
+<br>
+<br> 
+<br>  
+
+<button id="stretch">Stretch</button>
+
+<br>
+<br>
+
+<button id="shad">Shadow</button>
+
+<br>
+<br>
+
+<button class="one">One</button>
+<button class="one">Two</button>
+<button class="one">Three</button>
