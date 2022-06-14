@@ -1,6 +1,6 @@
-function test (myConditions) {
-  if (myConditions) {
-    return "Bitt was true";
+function test (myCondition) {
+  if (myCondition) {
+    return "It was true";
   }
   return "It was false";
 }
